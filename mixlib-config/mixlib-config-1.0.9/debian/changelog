@@ -1,9 +1,12 @@
 libmixlib-config-ruby (1.0.9-1) unstable; urgency=low
 
-  * watch via githubredir
   * new upstream version
+  * policy fixes to short / long description
 
- -- Joshua Timberman <joshua@opscode.com>  Tue, 04 Aug 2009 13:32:21 -0600
+  [ Joshua Timberman <joshua@opscode.com> ]
+  * watch via githubredir 
+
+ -- Bryan McLellan <btm@loftninjas.org>  Thu, 06 Aug 2009 12:01:19 -0700
 
 libmixlib-config-ruby (1.0.7-2) unstable; urgency=low
 
