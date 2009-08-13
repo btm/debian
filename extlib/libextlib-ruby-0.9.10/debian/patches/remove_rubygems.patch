@@ -1,0 +1,10 @@
+Index: libextlib-ruby-0.9.10/lib/extlib.rb
+===================================================================
+--- libextlib-ruby-0.9.10.orig/lib/extlib.rb	2009-08-13 12:01:43.000000000 -0700
++++ libextlib-ruby-0.9.10/lib/extlib.rb	2009-08-13 12:01:47.000000000 -0700
+@@ -1,5 +1,4 @@
+ require 'pathname'
+-require 'rubygems'
+ 
+ __DIR__ = File.expand_path(File.dirname(__FILE__))
+ $LOAD_PATH.unshift(__DIR__) unless $LOAD_PATH.include?(__DIR__)
