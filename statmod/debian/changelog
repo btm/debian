@@ -1,6 +1,6 @@
 statmod (1.4.2-1) unstable; urgency=low
 
-  * Initial Debian release (Closes: #123)
+  * Initial Debian release (Closes: #565453)
 
  -- Bryan McLellan <btm@loftninjas.org>  Fri, 15 Jan 2010 13:47:03 -0800
 
