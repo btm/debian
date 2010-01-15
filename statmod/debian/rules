@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+
+include /usr/share/R/debian/r-cran.mk
+
+DEB_INSTALL_CHANGELOGS_ALL = inst/doc/changelog.txt 
+
+common-binary-post-install-indep::
+	rm -rvf debian/r-cran-statmod/usr/lib/R/site-library/statmod/doc

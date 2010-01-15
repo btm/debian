@@ -1,0 +1,15 @@
+Source: statmod
+Section: gnu-r
+Priority: optional
+Maintainer: Bryan McLellan <btm@loftninjas.org>
+Build-Depends: debhelper (>= 5.0.0), cdbs, r-base-dev
+Standards-Version: 3.8.3
+
+Package: r-cran-statmod
+Architecture: all
+Depends: r-base-core
+Description: GNU R package providing statistical modeling functions
+ This package contains functions for growth curve comparisons, limiting 
+ dilution analysis, mixed linear models, heteroscedastic regression, 
+ Tweedie family generalized linear models, the inverse-Gaussian distribution
+ and Gauss quadrature.
