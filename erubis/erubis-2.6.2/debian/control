@@ -2,9 +2,10 @@ Source: erubis
 Section: ruby
 Priority: extra
 Maintainer: Bryan McLellan <btm@loftninjas.org>
-Build-Depends: cdbs, debhelper (>= 7)
-Build-Depends-Indep: ruby-pkg-tools (>= 0.14), graphviz, ruby1.8, ruby1.9
-Standards-Version: 3.8.1
+Uploaders: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Build-Depends: cdbs, debhelper (>= 7), ruby-pkg-tools (>= 0.17)
+Build-Depends-Indep: graphviz, libsetup-ruby1.8, ruby1.8, ruby1.9.1
+Standards-Version: 3.8.4
 Homepage: http://www.kuwata-lab.com/erubis/
 
 Package: erubis
@@ -61,11 +62,11 @@ Description: A very fast eRuby implementation for Ruby 1.8
  This package contains extlib libraries for Ruby 1.8.
 
 
-Package: liberubis-ruby1.9
+Package: liberubis-ruby1.9.1
 Architecture: all
-Depends: ${misc:Depends}, ruby1.9, libabstract-ruby1.9
+Depends: ${misc:Depends}, ruby1.9.1, libabstract-ruby1.9.1
 Suggests: erubis-doc
-Description: A very fast eRuby implementation for Ruby 1.9
+Description: A very fast eRuby implementation for Ruby 1.9.1
  Erubis is a very fast eRuby implementation
   * Multi-language support (Ruby/PHP/C/Java/Scheme/Perl/Javascript)
   * Auto escaping support
@@ -76,7 +77,7 @@ Description: A very fast eRuby implementation for Ruby 1.9
   * Easy to extend and customize in subclass
   * Ruby on Rails support
  .
- This package contains extlib libraries for Ruby 1.9.
+ This package contains extlib libraries for Ruby 1.9.1.
 
 Package: erubis-doc
 Section: doc

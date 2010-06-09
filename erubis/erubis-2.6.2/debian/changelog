@@ -1,3 +1,11 @@
+erubis (2.6.5-1) unstable; urgency=low
+
+  * New upstream release
+  * Bump standards version to 3.8.4
+  * Switch to ruby 1.9.1 (Closes: #569846, #577876)
+
+ -- Bryan McLellan <btm@loftninjas.org>  Wed, 09 Jun 2010 19:56:56 +0000
+
 erubis (2.6.2-3) unstable; urgency=low
 
   * Bump standards version to 3.8.1
