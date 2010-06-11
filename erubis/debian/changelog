@@ -3,8 +3,9 @@ erubis (2.6.5-1) unstable; urgency=low
   * New upstream release
   * Bump standards version to 3.8.4
   * Switch to ruby 1.9.1 (Closes: #569846, #577876)
+  * Switch to dpkg-source 3.0 (quilt) format
 
- -- Bryan McLellan <btm@loftninjas.org>  Wed, 09 Jun 2010 19:56:56 +0000
+ -- Bryan McLellan <btm@loftninjas.org>  Fri, 11 Jun 2010 23:48:34 +0000
 
 erubis (2.6.2-3) unstable; urgency=low
 
