@@ -3,8 +3,8 @@ Section: libs
 Priority: extra
 Maintainer: Bryan McLellan <btm@loftninjas.org>
 Build-Depends: cdbs, debhelper (>= 4.0.0)
-Build-Depends-Indep: ruby-pkg-tools (>= 0.14), graphviz, ruby1.8, ruby1.9
-Standards-Version: 3.8.0
+Build-Depends-Indep: ruby-pkg-tools (>= 0.14), graphviz, ruby1.8, ruby1.9.1
+Standards-Version: 3.8.4
 Homepage: http://rubyforge.org/projects/stomp/
 
 Package: libstomp-ruby
@@ -34,17 +34,17 @@ Description: Ruby 1.8 bindings for the stomp messaging protocol
  .
  This package contains stomp libraries for Ruby 1.8.
 
-Package: libstomp-ruby1.9
+Package: libstomp-ruby1.9.1
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ruby1.9
-Description: Ruby 1.9 bindings for the stomp messaging protocol
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby1.9.1
+Description: Ruby 1.9.1 bindings for the stomp messaging protocol
  Stomp is a text-oriented wire protocol for messaging (MOM/MQ/JMS)  
  type systems. This library provides two useful interfaces, a low-
  level class, Stomp::Connection, which is a basic protocol  
  implementation, and Stomp::Client, which is designed as a higher  
  level convenience API.
  .
- This package contains stomp libraries for Ruby 1.9.
+ This package contains stomp libraries for Ruby 1.9.1.
 
 Package: libstomp-ruby-doc
 Section: doc

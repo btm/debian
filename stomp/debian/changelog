@@ -1,0 +1,15 @@
+libstomp-ruby (1.0.4-2) unstable; urgency=low
+
+  * Bump standards version to 3.8.4
+  * Switch to ruby 1.9.1 (Closes: #569857, #577888)
+  * Switch to dpkg-source 3.0 (quilt) format
+  * Add Debian Ruby Extras team
+
+ -- Bryan McLellan <btm@loftninjas.org>  Sat, 12 Jun 2010 00:08:49 +0000
+
+libstomp-ruby (1.0.4-1) unstable; urgency=low
+
+  * Initial release (Closes: Bug#513324)
+
+ -- Bryan McLellan <btm@loftninjas.org>  Mon, 26 Jan 2009 20:38:53 -0800
+
