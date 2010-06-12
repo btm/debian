@@ -2,8 +2,9 @@ Source: libstomp-ruby
 Section: libs
 Priority: extra
 Maintainer: Bryan McLellan <btm@loftninjas.org>
-Build-Depends: cdbs, debhelper (>= 4.0.0)
-Build-Depends-Indep: ruby-pkg-tools (>= 0.14), graphviz, ruby1.8, ruby1.9.1
+Build-Depends: cdbs, debhelper (>= 5.0.0), ruby-pkg-tools (>= 0.14)
+Build-Depends-Indep: graphviz, ruby1.8, ruby1.9.1
+Uploaders: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
 Standards-Version: 3.8.4
 Homepage: http://rubyforge.org/projects/stomp/
 
